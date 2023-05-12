@@ -1,0 +1,27 @@
+.section-about {
+    padding: 8rem;
+    margin-bottom: 8rem;
+    @include respond(tab-land) {
+        margin-bottom: 13rem;
+    }
+    @include respond(tab-port) {
+        margin-bottom: 40rem;
+    }
+}
+
+.section-tour {
+    margin-bottom: 8rem;
+}
+
+.section-feedback {
+    padding: 8rem 0;
+    position: relative;
+}
+
+.section-book {
+    padding: 10rem;
+    background: linear-gradient(90deg, #4DA0B0, #D39D38);
+    @include respond(tab-port) {
+        padding: 4rem;
+    }
+}
